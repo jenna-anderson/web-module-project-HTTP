@@ -7,7 +7,6 @@ import axios from 'axios';
 const EditMovieForm = (props) => {
 	const { push } = useHistory();
 	const { id } = useParams();
-	console.log(props)
 
 	const [movie, setMovie] = useState({
 		title:"",
