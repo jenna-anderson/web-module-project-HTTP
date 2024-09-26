@@ -160,3 +160,15 @@ table.table .avatar {
 .movie-details {
 	width:80%;
 }
+
+.delete-modal {
+	border: 1px solid gray;
+	box-shadow: gray 1px 1px 1px 1px;
+	background-color: lightgray;
+	position: absolute;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 30vh;
+}
